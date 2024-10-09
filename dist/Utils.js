@@ -6,10 +6,10 @@ function calculate(meal1, meal2, meal3) {
     const totalCalories = meal1 + meal2 + meal3;
     if (totalCalories > dailyCalorieRequirement) {
         const excessCalories = totalCalories - dailyCalorieRequirement;
-        return `คุณกินเกิน ${excessCalories} แคลอรี่`;
+        return excessCalories;
     }
     else {
-        return `คุณยังเหลืออีก ${dailyCalorieRequirement - totalCalories} แคลอรี่ ที่ควรได้รับ`;
+        return dailyCalorieRequirement - totalCalories;
     }
 }
 exports.Utils = { calculate };

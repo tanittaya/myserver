@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const Utils_1 = require("./Utils");
 let allTestsPassed = true;
 // Test 1: Check if 1 + 1 equals 2
-if (Utils_1.Utils.calculate(1, 1, 1) === '2') {
+if (Utils_1.Utils.calculate(1, 1, 1) === 3) {
     console.log(0); // Test passed
 }
 else {
@@ -11,7 +11,7 @@ else {
     allTestsPassed = false;
 }
 // Test 2: Check if 5 - 3 equals 2
-if (Utils_1.Utils.calculate(5, 3, 4) === '2') {
+if (Utils_1.Utils.calculate(5, 3, 4) === 12) {
     console.log(0); // Test passed
 }
 else {
@@ -19,7 +19,7 @@ else {
     allTestsPassed = false;
 }
 // Test 3: Check if 4 * 2 equals 8
-if (Utils_1.Utils.calculate(4, 2, 8) === '8') {
+if (Utils_1.Utils.calculate(4, 2, 8) === 14) {
     console.log(0); // Test passed
 }
 else {
@@ -27,7 +27,7 @@ else {
     allTestsPassed = false;
 }
 // Test 4: Check if 10 / 2 equals 5
-if (Utils_1.Utils.calculate(10, 2, 2) === '5') {
+if (Utils_1.Utils.calculate(10, 2, 2) === 14) {
     console.log(0); // Test passed
 }
 else {
