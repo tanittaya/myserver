@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
     if (isNaN(meal1) || isNaN(meal2) || isNaN(meal3)) {
         res.send("กรุณาใส่แคลอรี่ของแต่ละมื้อให้ถูกต้อง");
         return;
-    }
+    }   
 
     const dailyCalorieRequirement = 2200;
     const totalCalories = meal1 + meal2 + meal3;

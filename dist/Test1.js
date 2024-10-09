@@ -11,7 +11,7 @@ if (Utils_1.Utils.calculate(800, 800, 1000) === 2600) {
     console.log(1001); // ทดสอบล้มเหลว
     allTestsPassed = false;
 }
-
+ 
 // เช็คว่ามีการทดสอบใดล้มเหลวหรือไม่
 if (!allTestsPassed) {
     console.log(1005); // มีการทดสอบล้มเหลว
