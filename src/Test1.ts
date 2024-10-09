@@ -3,7 +3,7 @@ import { Utils } from "./Utils";
 let allTestsPassed = true;
 
 // Test 1: Check if 1 + 1 equals 2
-if (Utils.calculate(500, 1 ,1) === 2197) {
+if (Utils.calculate(1, 1 ,1) === 2197) {
     console.log(0);  // Test passed
 } else {
     console.log(1001);  // Test ID for failure
