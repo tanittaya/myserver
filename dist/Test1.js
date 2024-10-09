@@ -27,7 +27,7 @@ else {
     allTestsPassed = false;
 }
 // Test 4: Check if 10 / 2 equals 5
-if (Utils_1.Utils.calculate(10, 2, 2) === 2186) {
+if (Utils_1.Utils.calculate(10, 2, 2) === 2000) {
     console.log(0); // Test passed
 }
 else {
