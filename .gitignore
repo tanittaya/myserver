@@ -1,4 +1,10 @@
-/dist
-/src
-package.json
-package-lock.json
+*
+!dist/
+!dist/index.js
+!dist/Utils.js
+!dist/Test1.js
+!src/
+!src/index.ts
+!src/Utils.ts
+!src/Test1.ts
+!package.json
