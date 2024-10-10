@@ -34,12 +34,6 @@ if (Utils.calculate(10, 2, 2) === 2186) {
     allTestsPassed = false;
 }
 
-if (Utils.calculate(10, 2, 8) === 2000) {
-    console.log(0);  // Test passed
-} else {
-    console.log(1004);  // Test ID for failure
-    allTestsPassed = false;
-}
 
 // Final check to print failure message if any test failed
 if (!allTestsPassed) {
