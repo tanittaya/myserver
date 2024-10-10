@@ -12,7 +12,7 @@ else {
 }
 // Test 2: Check if 5 - 3 equals 2
 if (Utils_1.Utils.calculate(5, 3, 4) === 2188) {
-    console.log(0); // Test passed
+    console.log(0); // Test passed    
 }
 else {
     console.log(1002); // Test ID for failure
@@ -34,9 +34,16 @@ else {
     console.log(1004); // Test ID for failure
     allTestsPassed = false;
 }
+if (Utils_1.Utils.calculate(10, 2, 8) === 2000) {
+    console.log(0); // Test passed
+}
+else {
+    console.log(1004); // Test ID for failure
+    allTestsPassed = false;
+}
 // Final check to print failure message if any test failed
 if (!allTestsPassed) {
-    console.log(1005); // General failure code for at least one failed test
+    console.log(1005); // General failure code for at least one failed tesัะ
 }
 // Optionally, exit the process with the appropriate code
 process.exit(allTestsPassed ? 0 : 1);
